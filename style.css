@@ -134,10 +134,12 @@ button:hover {
 .downloads {
     display: flex;
     margin-top: 3em;
+    cursor: pointer;
 }
 
 .downloads .google {
     width: 100%;
+    cursor: pointer;
 }
 
 .downloads .google img {
@@ -198,6 +200,7 @@ button:hover {
 }
 
 .main-right-img {
+    cursor: pointer;
     width: 100%;
 }
 
@@ -248,4 +251,109 @@ button:hover {
 
 .footer-right img {
     width: 20em;
+    cursor: pointer;
+}
+
+@media (min-width: 1281px) {
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+
+@media (min-width: 315px) and (max-width: 480px) {
+  /* CSS for screens between 320px and 480px */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #644F0E;
+    z-index: 999999;
+    /* border-radius: 10em; */
+}
+
+.E-img {
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.E-img:hover {
+    background-color: hsla(56, 81%, 28%, 1);
+}
+
+.E-img img {
+    padding: 14px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.navbar h2 {
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 7px;
+}
+
+.navbar li {
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: hsla(56, 81%, 28%, 1);
+}
+
+
+
+button {
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: 800;
+    border: none;
+    margin: 1em;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 4em;
+    height: 60px;
+}
+
+button:hover {
+    background-color: hsla(56, 81%, 28%, 1);
+}
+
+.footer-right img {
+    width: 14em;
+  }
 }
